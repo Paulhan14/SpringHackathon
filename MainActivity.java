@@ -17,12 +17,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void sendMessage(View view) {
+    public void getNumber(View view) {
         EditText editText = (EditText)findViewById(R.id.editText2);
         String numberGot = editText.getText().toString();
         //int managerNumber = Integer.parseInt(numberGot);
         Intent i = new Intent(this, Main2Activity.class);
         //i.putExtra("ManagerNumber", numberGot);
+        startActivity(i);
+    }
+
+    public void clearRoute(View view) {
+        Intent i = new Intent(this, Main3Activity.class);
         startActivity(i);
     }
 }

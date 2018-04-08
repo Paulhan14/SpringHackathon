@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="road_arrays">
+        <item>E Park Ave</item>
+        <item>Curtin Rd</item>
+        <item>Pollock Rd</item>
+    </string-array>
+
+</resources>
